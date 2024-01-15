@@ -5,7 +5,7 @@ import json
 @dataclass
 class TransmissionRequest:
     headers: str = ""
-    url: str = "http://treehouse:9091/transmission/rpc"
+    url: str = "http://100.71.2.30:9091/transmission/rpc"
 
 
 
